@@ -9,3 +9,14 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+.DS_Store
+.gitignore
+.project
+.settings/org.eclipse.core.resources.prefs
+.gitignore
+.vscode/settings.json
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.gitignore
+.classpath
+.settings/org.eclipse.jdt.apt.core.prefs
