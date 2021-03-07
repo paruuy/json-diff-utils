@@ -1,4 +1,4 @@
-package com.santander.jsondiff;
+package com.paruuy.jsondiff;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -10,10 +10,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.MapDifference;
 import com.google.common.collect.Maps;
 import com.google.common.collect.MapDifference.ValueDifference;
-import com.santander.data.JsonResult;
-import com.santander.data.Node;
-import com.santander.data.Nodes;
-import com.santander.utils.FlatMapUtil;
+import com.paruuy.data.JsonResult;
+import com.paruuy.data.Node;
+import com.paruuy.data.Nodes;
+import com.paruuy.utils.FlatMapUtil;
 
 public class JsonDiffApp {
     public static void main(String[] args) throws IOException {

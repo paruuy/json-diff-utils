@@ -1,4 +1,4 @@
-package com.santander.data;
+package com.paruuy.data;
 
 import java.util.ArrayList;
 import java.util.List;
