@@ -1,26 +1,28 @@
 package com.santander.data;
 
 public class Node {
+
+    private String path;
     private String value;
-    private String key;
-    private String id;
-    
+    private String json_source;
+
+    public String getPath() {
+        return path;
+    }
+
     public String getValue() {
         return value;
     }
-    public void setValue(String value) {
+
+    public String getJson_source() {
+        return json_source;
+    }
+
+    public Node(String path, String value, String json_source) {
+        this.path = path;
         this.value = value;
+        this.json_source = json_source;
     }
-    public String getKey() {
-        return key;
-    }
-    public void setKey(String key) {
-        this.key = key;
-    }
-    public String getId() {
-        return id;
-    }
-    public void setId(String id) {
-        this.id = id;
-    }
+
+
 }

@@ -1,18 +1,21 @@
-package com.santander.jsondiff;
+package com.santander.data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class JsonResult {
 
-   private List<Node> result;
-   
-   public List<Node> getResult() {
-       return result;
-   }
+    private List<Nodes> result;
 
-   public void setResult(List<Node> result) {
-       this.result = result;
-   }
+    public List<Nodes> getResult() {
+        return result;
+    }
 
-    
+    public void addNodes(Nodes nodes) {
+        if (result == null) {
+            result = new ArrayList<>();
+        }
+        this.result.add(nodes);
+    }
+
 }
