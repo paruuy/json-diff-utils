@@ -73,6 +73,12 @@ java -cp json-diff-1.0-jar-with-dependencies.jar com.paruuy.jsondiff.JsonDiffApp
 
 ### Aditional info
 
+If it is necessary to show the differences of each JSON separately, the Guava library has methods to do this:
+<b>difference.entriesOnlyOnLeft()</b>
+<b>difference.entriesOnlyOnRight()</b
+
+If you want to print the values you can do:
+
 ```java
 //If you need to show the entries only of json1, you can print:
 difference.entriesOnlyOnLeft().forEach((key, value) -> System.out.println(key + ": " + value));
@@ -81,3 +87,5 @@ difference.entriesOnlyOnLeft().forEach((key, value) -> System.out.println(key + 
 difference.entriesOnlyOnRight().forEach((key, value) -> System.out.println(key + ": " + value));
 
 ```
+
+
